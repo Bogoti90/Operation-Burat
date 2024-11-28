@@ -81,11 +81,8 @@ This repository provides a streamlined workflow for predicting and analyzing the
 
 ---
 
-## Repository Structure
-- **/input/**: Sequence and structure files for AlphaFold.
-- **/models/**: Predicted structures in `.pdb` format.
-- **/mutations/**: Mutation list files for FoldX.
-- **/results/**: Outputs from FoldX analysis.
+- **DAG Visualization**: 
+  ![FoldX Output ΔΔG (kcal/mol)](.png)
 
 ---
 
