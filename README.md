@@ -1,5 +1,5 @@
 # Operation-Burat
-An in-silico modelling pipeline to understand the effects of MERS-CoV Spike glycoprotein mutants on the interaction with the host receptor DPP4. Burat is a special location to me (Deutsch translation: ist ein besonderer Ort für mich) . Found in Kenya, I detected  most of Kenya MERS-CoV viruses from camels during my PhD.
+An in-silico modelling pipeline to understand the effects of MERS-CoV Spike glycoprotein mutants on the interaction with the host receptor DPP4. Burat is a special location to me (Deutsch translation: Burat ist ein besonderer Ort für mich) (thanks Thaira for the translation). Found in Kenya, I detected  most of Kenya MERS-CoV viruses from camels during my PhD.
 
 This repository provides a streamlined workflow for predicting and analyzing the interactions between the MERS-CoV Spike protein and DPP4 receptor using cutting-edge computational tools such as AlphaFold, PyMOL, and FoldX. The pipeline includes detailed steps to predict protein structures, inspect and manipulate them, and evaluate the impact of mutations on binding affinity. This pipeline has been developed and tested on MERS-CoV Spike glycoprotein (the prototypic EMC/2012) and human DPP4. The pipeline uses different tools (currently working on a snakemake/nextflow workflow manager 😅)
 
