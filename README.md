@@ -82,7 +82,7 @@ It is highly recommended to repair PDB structures before modelling with FoldX. R
    PDB_Repair.fxout -> energies of the repaired residues
    PDB_Repair.pdb -> repaired Pdb
 
-- The repair function of FoldX reduces the energy content of a protein-structure model to a minimum by rearranging side chains
+The repair function of FoldX reduces the energy content of a protein-structure model to a minimum by rearranging side chains
 
 #### Step 3.3: Generate and Analyze Mutations (BuildModelPDB)
 1. Create a mutation list:
@@ -96,7 +96,7 @@ It is highly recommended to repair PDB structures before modelling with FoldX. R
    ```bash
    FoldX --command=BuildModel --pdb=spike_505Y_dpp4_complex_Repair.pdb --mutant-file=individual_list.txt --numberOfRuns=5
    ```
-   - This generates structural models for each mutation and calculates changes in Gibbs free energy (ΔΔG). The function BuildModel introduces mutations and optimizes the structure of the new protein variant. The energy function of FoldX is only able to calculate the energy difference in accurate manner between the wildtype and a variant of the protein 
+This generates structural models for each mutation and calculates changes in Gibbs free energy (ΔΔG). The function BuildModel introduces mutations and optimizes the structure of the new protein variant. The energy function of FoldX is only able to calculate the energy difference in accurate manner between the wildtype and a variant of the protein 
 
 #### Step 3.4: Interpreting the BuildModel FoldX Output
 1. Check the results file (e.g., `spike_505Y_dpp4_complex_Repair.fxout`):
