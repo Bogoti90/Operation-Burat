@@ -103,7 +103,7 @@ This repository provides a streamlined workflow for predicting and analyzing the
        
 **Build Model Outputs explanation**
 
--After running BuildModel, several output files are generated. These files summarize the energy differences and provide detailed decomposition of the energy components for each mutant and its corresponding wild type.
+After running BuildModel, several output files are generated. These files summarize the energy differences and provide detailed decomposition of the energy components for each mutant and its corresponding wild type.
 
 - **Average_PDB_BM.fxout**:
 Contains the average energy values for the different runs. This file provides an overall stability score.
