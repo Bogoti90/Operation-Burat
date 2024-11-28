@@ -19,15 +19,13 @@ This repository provides a streamlined workflow for predicting and analyzing the
 - **Resource**: [AlphaFold Training Guide](https://www.ebi.ac.uk/training/online/courses/alphafold/an-introductory-guide-to-its-strengths-and-limitations/strengths-and-limitations-of-alphafold/)
 
 #### Key Considerations:
-- Do not draw conclusions about Post-Translational Modification (PTM) scores from AlphaFold when comparing wild-type structures .
 - Inclusion criterion:
   - **pTM Score > 0.5**: Indicates the overall predicted fold for the complex might be similar to the true structure.
     
-  - N/B: (Ignore ipTM values as corrections are made in subsequent steps.)
+  - N/B: (Ignore ipTM values as corrections are made in subsequent steps. Do not draw conclusions about pTM scores from AlphaFold when comparing wild-type structures vs point mutant variants if you manually do edit your protein sequences).
 
 #### Notes:
-- Ensure input sequence files are consistent across all analyses.
-- The order of input files in AlphaFold matters.
+- Ensure input sequence files are consistent across all analyses. The order of input files in AlphaFold matters (discovered this at later analysis points when i used the the input files interchangeably).
 
 ### Step 2: PyMOL
 **Structural Inspection and Preparation**
