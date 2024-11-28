@@ -101,7 +101,8 @@ This repository provides a streamlined workflow for predicting and analyzing the
      - Positive: Mutation is destabilizing or reduces binding affinity. 
      - Negative: Mutation is stabilizing or increases binding affinity. 
        
-**Outputs Explained**
+**Build Model Outputs explanation**
+
 -After running BuildModel, several output files are generated. These files summarize the energy differences and provide detailed decomposition of the energy components for each mutant and its corresponding wild type.
 
 - **Average_PDB_BM.fxout**:
