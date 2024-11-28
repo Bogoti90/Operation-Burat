@@ -42,7 +42,7 @@ This repository provides a streamlined workflow for predicting and analyzing the
 2. Install FoldX and make the executable accessible via your system’s PATH.
 3. Add execution permissions using:
    ```bash
-   chmod +x foldx5_1Mac
+   chmod +x foldx5_1
    ```
 
 #### Step 3.2: Prepare the Complex for FoldX Analysis
@@ -55,10 +55,10 @@ This repository provides a streamlined workflow for predicting and analyzing the
 
 #### Step 3.3: Generate and Analyze Mutations
 1. Create a mutation list:
-   - Format: `Chain:ResidueNumberNewResidue`
+   - Format: `WTresidue:ChainResidue:Number:NewResidue`
    - Example for mutating residue 505 on chain A to Tyrosine:
      ```
-     A:505Y
+     DA505Y
      ```
 2. Save the mutation list as `individual_list.txt`.
 3. Run mutation analysis:
