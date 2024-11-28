@@ -21,8 +21,9 @@ This repository provides a streamlined workflow for predicting and analyzing the
 #### Key Considerations:
 - Do not draw conclusions about Post-Translational Modification (PTM) scores from AlphaFold when comparing wild-type structures and amino acid variants.
 - Inclusion criterion:
-  - **pTM Score > 0.5**: Indicates that the predicted fold might resemble the true structure.
-  - Ignore ipTM values as corrections are made in subsequent steps.
+  - **pTM Score > 0.5**: Indicates the overall predicted fold for the complex might be similar to the true structure.
+    
+  - N/B: (Ignore ipTM values as corrections are made in subsequent steps.)
 
 #### Notes:
 - Ensure input sequence files are consistent across all analyses.
