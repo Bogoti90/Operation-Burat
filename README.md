@@ -35,7 +35,7 @@ This repository provides a streamlined workflow for predicting and analyzing the
    - Download and install PyMOL from the official [PyMOL website](https://pymol.org/).
    - Ensure you have the latest version for compatibility with advanced features.
 2. **Load Structures**:
-   - Open PyMOL and load the AlphaFold-generated `.pdb` file (e.g., `ranked_0.pdb`).
+   - Open PyMOL and load the AlphaFold-generated `.cif` file (e.g., `model_0.cif`).
    - Command example:
      ```
      load fold_2024_11_14_14_47_spike_vs_dpp4_model_0.cif
