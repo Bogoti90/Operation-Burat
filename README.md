@@ -93,13 +93,12 @@ This repository provides a streamlined workflow for predicting and analyzing the
 ## Usage Notes
 - Ensure software dependencies (AlphaFold, PyMOL, FoldX) are properly installed.
 - Follow inclusion criteria and repair protocols to ensure consistent and reliable results.
-- Document observed anomalies or trends for reproducibility.
 
 ---
 
 ## Contributors
 - **Brian M Ogoti**
-  - Virologist, Molecular Biologist, and Infectious Disease Specialist.
+  - Global Health | Virologist.
   - Contact: [brian.ogoti@cema.africa](mailto:brian.ogoti@cema.africa)
 
 ---
