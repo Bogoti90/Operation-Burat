@@ -91,7 +91,7 @@ This repository provides a streamlined workflow for predicting and analyzing the
 ---
 
 - **R Script for output visualization**: 
-  You can find the R script in the [Foldx.R](le).
+  You can find the R script in the [Foldx.R](FoldX_plots.R).
 
 ## Usage Notes
 - Ensure software dependencies (AlphaFold, PyMOL, FoldX) are properly installed.
