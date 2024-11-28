@@ -57,7 +57,6 @@ This repository provides a streamlined workflow for predicting and analyzing the
      png spike_dpp4_visualization.png
      ```
 #### Notes:
-- Leverage PyMOL plugins for enhanced functionality, such as APBS for electrostatic surface calculations.
 - Document observations for reproducibility and further analysis in FoldX.
 
 
