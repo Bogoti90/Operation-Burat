@@ -19,7 +19,7 @@ This repository provides a streamlined workflow for predicting and analyzing the
 - **Resource**: [AlphaFold Training Guide](https://www.ebi.ac.uk/training/online/courses/alphafold/an-introductory-guide-to-its-strengths-and-limitations/strengths-and-limitations-of-alphafold/)
 
 #### Key Considerations:
-- Do not draw conclusions about Post-Translational Modification (PTM) scores from AlphaFold when comparing wild-type structures and amino acid variants.
+- Do not draw conclusions about Post-Translational Modification (PTM) scores from AlphaFold when comparing wild-type structures .
 - Inclusion criterion:
   - **pTM Score > 0.5**: Indicates the overall predicted fold for the complex might be similar to the true structure.
     
