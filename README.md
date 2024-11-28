@@ -104,7 +104,7 @@ This repository provides a streamlined workflow for predicting and analyzing the
 ---
 
 ## License
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the [CC0-1.0 license](LICENSE).
 
 ---
 
