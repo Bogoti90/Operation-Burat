@@ -130,9 +130,8 @@ This repository provides a streamlined workflow for predicting and analyzing the
 - **Brian M Ogoti**
   - Global Health | Virologist.
   - Contact: [brian.ogoti@cema.africa](mailto:brian.ogoti@cema.africa)
-
-* Web: [The Center for Epidemiological Modelling and Analysis CEMA](https://cema-africa.uonbi.ac.ke/people/epidemiology/brian-maina) 
-* Twitter: [@diyobraz2](https://x.com/diyobraz2)
+  - Web: [The Center for Epidemiological Modelling and Analysis CEMA](https://cema-africa.uonbi.ac.ke/people/epidemiology/brian-maina)
+  - Twitter/X: [@diyobraz2](https://x.com/diyobraz2)
 ---
 
 ## License
