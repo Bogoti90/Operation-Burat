@@ -81,7 +81,7 @@ This repository provides a streamlined workflow for predicting and analyzing the
 
 ---
 
-- **DAG Visualization**: 
+- **FoldX Output ΔΔG Visualization**: 
   ![FoldX Output ΔΔG (kcal/mol)](Kenya_mutants_EMC-Dpp4.png)
 
 ---
@@ -90,13 +90,6 @@ This repository provides a streamlined workflow for predicting and analyzing the
 - Ensure software dependencies (AlphaFold, PyMOL, FoldX) are properly installed.
 - Follow inclusion criteria and repair protocols to ensure consistent and reliable results.
 - Document observed anomalies or trends for reproducibility.
-
----
-
-## Future Directions
-- Extend the analysis to other coronavirus spike proteins.
-- Investigate mutations in different environmental conditions.
-- Explore the integration of machine learning models for predictive analytics.
 
 ---
 
