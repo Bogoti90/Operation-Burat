@@ -82,7 +82,7 @@ This repository provides a streamlined workflow for predicting and analyzing the
 ---
 
 - **DAG Visualization**: 
-  ![FoldX Output ΔΔG (kcal/mol)](.png)
+  ![FoldX Output ΔΔG (kcal/mol)](Kenya_mutants_EMC-Dpp4.png)
 
 ---
 
