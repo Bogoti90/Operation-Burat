@@ -53,6 +53,8 @@ This repository provides a streamlined workflow for predicting and analyzing the
    ```
    - Output: A repaired PDB file (e.g., `spike_505Y_dpp4_complex_Repair.pdb`).
 
+- The repair function of FoldX reduces the energy content of a protein-structure model to a minimum by rearranging side chains
+
 #### Step 3.3: Generate and Analyze Mutations
 1. Create a mutation list:
    - Format: `WTresidue:ChainResidue:Number:NewResidue`
@@ -65,14 +67,15 @@ This repository provides a streamlined workflow for predicting and analyzing the
    ```bash
    FoldX --command=BuildModel --pdb=spike_505Y_dpp4_complex_Repair.pdb --mutant-file=individual_list.txt --numberOfRuns=5
    ```
-   - This generates structural models for each mutation and calculates changes in Gibbs free energy (ΔΔG).
+   - This generates structural models for each mutation and calculates changes in Gibbs free energy (ΔΔG). The function BuildModel introduces mutations and optimizes the structure of the new protein variant. The energy function of FoldX is only able to calculate the energy difference in accurate manner between the wildtype and a variant of the protein 
 
 #### Step 3.4: Interpret FoldX Output
 1. Check the results file (e.g., `spike_505Y_dpp4_complex_Repair.fxout`):
-   - **ΔΔG (kcal/mol)**:
+   - **ΔΔG (kcal/mol)**: (ΔΔG = ΔG Wildtype - ΔG Variant (kcal/mol))
+     
      - Positive: Mutation is destabilizing or reduces binding affinity.
      - Negative: Mutation is stabilizing or increases binding affinity.
-2. Evaluate binding affinity changes using interaction energy values.
+       
 
 #### Step 3.5: Summarize Results
 - Compile ΔΔG values for all mutations.
