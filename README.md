@@ -58,7 +58,7 @@ This repository provides a streamlined workflow for predicting and analyzing the
 #### Step 3.3: Generate and Analyze Mutations
 1. Create a mutation list:
    - Format: `WTresidue:ChainResidue:Number:NewResidue`
-   - Example for mutating residue 505 on chain A to Tyrosine:
+   - Example for mutating residue D on number  505 on chain A to Tyrosine:
      ```
      DA505Y
      ```
