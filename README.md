@@ -70,17 +70,21 @@ This repository provides a streamlined workflow for predicting and analyzing the
    chmod +x foldx5_1
    ```
 
-#### Step 3.2: Prepare the Complex for FoldX Analysis
+#### Step 3.2: Preparing the Complex for FoldX Analysis (RepairPDB)
+It is highly recommended to repair your structures before you do any modelling with FoldX. RepairPDB identify those residues which have bad torsion angles, or VanderWaals' clashes, or total energy, and repairs them
+
 1. Load the Spike-DPP4 complex PDB file (e.g., `spike_505Y_dpp4_complex.pdb`).
 2. Repair the PDB file:
    ```bash
    FoldX --command=RepairPDB --pdb=spike_505Y_dpp4_complex.pdb
    ```
-   - Output: A repaired PDB file (e.g., `spike_505Y_dpp4_complex_Repair.pdb`).
+   - Outputs: A repaired PDB file (e.g., `spike_505Y_dpp4_complex_Repair.pdb`).
+   PDB_Repair.fxout -> energies of the repaired residues
+   PDB_Repair.pdb -> repaired Pdb
 
 - The repair function of FoldX reduces the energy content of a protein-structure model to a minimum by rearranging side chains
 
-#### Step 3.3: Generate and Analyze Mutations
+#### Step 3.3: Generate and Analyze Mutations (BuildModelPDB)
 1. Create a mutation list:
    - Format: `WTresidue:ChainResidue:Number:NewResidue`
    - Example for mutating residue D on number  505 on chain A to Tyrosine:
@@ -94,7 +98,7 @@ This repository provides a streamlined workflow for predicting and analyzing the
    ```
    - This generates structural models for each mutation and calculates changes in Gibbs free energy (ΔΔG). The function BuildModel introduces mutations and optimizes the structure of the new protein variant. The energy function of FoldX is only able to calculate the energy difference in accurate manner between the wildtype and a variant of the protein 
 
-#### Step 3.4: Interpret FoldX Output
+#### Step 3.4: Interpreting the BuildModel FoldX Output
 1. Check the results file (e.g., `spike_505Y_dpp4_complex_Repair.fxout`):
    - **ΔΔG (kcal/mol)**: (ΔΔG = ΔG Wildtype - ΔG Variant (kcal/mol))
      
