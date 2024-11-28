@@ -101,19 +101,19 @@ This repository provides a streamlined workflow for predicting and analyzing the
      - Positive: Mutation is destabilizing or reduces binding affinity. 
      - Negative: Mutation is stabilizing or increases binding affinity. 
        
-- **Outputs Explained**
+**Outputs Explained**
 -After running BuildModel, several output files are generated. These files summarize the energy differences and provide detailed decomposition of the energy components for each mutant and its corresponding wild type.
 
-**Average_PDB_BM.fxout**:
+- **Average_PDB_BM.fxout**:
 Contains the average energy values for the different runs. This file provides an overall stability score.
 
-**Dif_PDB_BM.fxout**:
+- **Dif_PDB_BM.fxout**:
 Contains the energy differences between the reference wild type and the mutant for each run. Negative values indicate the mutation has stabilized the structure, while positive values suggest destabilization.
 
-**Raw_PDB_BM.fxout**:
+- **Raw_PDB_BM.fxout**:
 Provides the full energy decomposition for both the wild type and mutant structures. This includes all the energy components (e.g., van der Waals, electrostatics, solvation, etc.) for a detailed analysis.
 
-**PdbList_PDB_BM.fxout**:
+- **PdbList_PDB_BM.fxout**:
 Lists all the generated mutants along with their corresponding wild-type references. Useful for tracking which mutants were processed.
 
 #### Step 3.5: Summarize Results
