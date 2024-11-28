@@ -5,7 +5,7 @@ This repository provides a streamlined workflow for predicting and analyzing the
 
 ## Overview
 
-### Key Tools and Steps
+### Key Tools
 1. **AlphaFold**: Prediction of Spike-DPP4 interaction. ([https://alphafoldserver.com/])
 2. **PyMOL**: Structural inspection and preparation. ([https://www.pymol.org/])
 3. **FoldX**: Protein repair, mutation analysis, and binding energy calculation. ([https://foldxsuite.crg.eu/])
