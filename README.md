@@ -84,7 +84,8 @@ This repository provides a streamlined workflow for predicting and analyzing the
 
 ---
 
-- **FoldX Output ΔΔG Visualization**: 
+- **An example FoldX Output ΔΔG Visualization from my personal analysis**: 
+
   ![FoldX Output ΔΔG (kcal/mol)](Kenya_mutants_EMC-Dpp4.png)
 
 ---
