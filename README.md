@@ -98,8 +98,8 @@ This repository provides a streamlined workflow for predicting and analyzing the
 1. Check the results file (e.g., `spike_505Y_dpp4_complex_Repair.fxout`):
    - **ΔΔG (kcal/mol)**: (ΔΔG = ΔG Wildtype - ΔG Variant (kcal/mol))
      
-     - Positive: Mutation is destabilizing or reduces binding affinity.
-     - Negative: Mutation is stabilizing or increases binding affinity.
+     - Positive: Mutation is destabilizing or reduces binding affinity. 
+     - Negative: Mutation is stabilizing or increases binding affinity. 
        
 
 #### Step 3.5: Summarize Results
