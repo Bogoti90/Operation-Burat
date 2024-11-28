@@ -30,9 +30,36 @@ This repository provides a streamlined workflow for predicting and analyzing the
 
 ### Step 2: PyMOL
 **Structural Inspection and Preparation**
-1. Import the primary model (model_0).
-2. Inspect the generated structure for anomalies or issues.
-3. Save the structure in `.pdb` format for further analysis.
+1. **Install PyMOL**:
+   - Download and install PyMOL from the official [PyMOL website](https://pymol.org/).
+   - Ensure you have the latest version for compatibility with advanced features.
+2. **Load Structures**:
+   - Open PyMOL and load the AlphaFold-generated `.pdb` file (e.g., `ranked_0.pdb`).
+   - Command example:
+     ```
+     load ranked_0.pdb
+     ```
+3. **Inspect Structural Features**:
+   - Use PyMOL’s visualization tools to examine:
+     - Protein folding and secondary structure elements.
+     - Binding interfaces between Spike and DPP4.
+     - Anomalies such as missing residues or unusual conformations.
+4. **Save Edited Structures**:
+   - Make necessary edits or annotations (e.g., highlighting binding residues).
+   - Save the updated structure in `.pdb` format:
+     ```
+     save spike_dpp4_inspected.pdb
+     ```
+5. **Generate Visualizations**:
+   - Create high-quality images for documentation using PyMOL’s ray-tracing capabilities:
+     ```
+     ray
+     png spike_dpp4_visualization.png
+     ```
+#### Notes:
+- Leverage PyMOL plugins for enhanced functionality, such as APBS for electrostatic surface calculations.
+- Document observations for reproducibility and further analysis in FoldX.
+
 
 ### Step 3: FoldX
 **Repair and Analyze the Protein Complex**
@@ -104,6 +131,8 @@ This repository provides a streamlined workflow for predicting and analyzing the
   - Global Health | Virologist.
   - Contact: [brian.ogoti@cema.africa](mailto:brian.ogoti@cema.africa)
 
+* Web: [The Center for Epidemiological Modelling and Analysis CEMA](https://cema-africa.uonbi.ac.ke/people/epidemiology/brian-maina) 
+* Twitter: [@diyobraz2](https://x.com/diyobraz2)
 ---
 
 ## License
