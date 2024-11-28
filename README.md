@@ -37,7 +37,7 @@ This repository provides a streamlined workflow for predicting and analyzing the
    - Open PyMOL and load the AlphaFold-generated `.pdb` file (e.g., `ranked_0.pdb`).
    - Command example:
      ```
-     load ranked_0.pdb
+     fold_2024_11_14_14_47_spike_vs_dpp4_model_0.cif
      ```
 3. **Inspect Structural Features**:
    - Use PyMOL’s visualization tools to examine:
