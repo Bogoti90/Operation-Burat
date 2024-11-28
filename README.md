@@ -71,7 +71,7 @@ This repository provides a streamlined workflow for predicting and analyzing the
    ```
 
 #### Step 3.2: Preparing the Complex for FoldX Analysis (RepairPDB)
-It is highly recommended to repair your structures before you do any modelling with FoldX. RepairPDB identify those residues which have bad torsion angles, or VanderWaals' clashes, or total energy, and repairs them
+It is highly recommended to repair PDB structures before modelling with FoldX. RepairPDB identifies those residues which have bad torsion angles, or VanderWaals' clashes, or total energy, and repairs them.
 
 1. Load the Spike-DPP4 complex PDB file (e.g., `spike_505Y_dpp4_complex.pdb`).
 2. Repair the PDB file:
