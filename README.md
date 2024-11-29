@@ -6,7 +6,7 @@ This repository provides a streamlined workflow for predicting and analyzing the
 ## Overview
 
 ### Key Tools
-1. **AlphaFold**: Clever AI tool for prediction of protein structures (in this case Spike-DPP4 structure). ([https://alphafoldserver.com/])
+1. **AlphaFold 3**: Clever AI tool for prediction of protein structures (in this case Spike-DPP4 structure). The Alphafold server is supported by the Alphafold3 code as per 29th Nov 2024 ([https://alphafoldserver.com/])
 2. **PyMOL**: Structural inspection and preparation. ([https://www.pymol.org/])
 3. **FoldX**: Protein repair, mutation analysis, and binding energy calculation. ([https://foldxsuite.crg.eu/])
 
@@ -14,7 +14,7 @@ This repository provides a streamlined workflow for predicting and analyzing the
 
 ## Pipeline Steps
 
-### Step 1: AlphaFold (By DeepMind Google) 
+### Step 1: AlphaFold (V3) (By DeepMind Google) 
 **Prediction of Spike-DPP4 Interaction**
 - **Resource**: [AlphaFold Training Guide](https://www.ebi.ac.uk/training/online/courses/alphafold/an-introductory-guide-to-its-strengths-and-limitations/strengths-and-limitations-of-alphafold/)
 
