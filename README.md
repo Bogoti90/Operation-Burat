@@ -87,7 +87,7 @@ The repair function of FoldX reduces the energy content of a protein-structure m
 #### Step 3.3: Generate and Analyze Mutations (BuildModelPDB)
 1. Create a mutation list:
    - Format: `WTresidue:ChainResidue:Number:NewResidue`
-   - Example for mutating residue D on number  505 on chain A to Tyrosine:
+   - Example for mutating residue D on number  505 on chain A to Y (Tyrosine):
      ```
      DA505Y
      ```
