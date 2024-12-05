@@ -6,9 +6,10 @@ This repository provides a streamlined workflow for predicting and analyzing the
 ## Overview
 
 ### Key Tools
-1. **AlphaFold 3**: Clever AI tool for prediction of protein structures (in this case Spike-DPP4 structure). The Alphafold server is supported by the Alphafold3 code as per 29th Nov 2024 ([https://alphafoldserver.com/])
-2. **PyMOL**: Structural inspection and preparation. ([https://www.pymol.org/])
-3. **FoldX**: Protein repair, mutation analysis, and binding energy calculation. ([https://foldxsuite.crg.eu/])
+1. **AlphaFold 3**: Clever AI tool for prediction of protein structures (in this case Spike-DPP4 structure as an example). The Alphafold server is supported by the Alphafold3 code as per 29th Nov 2024 ([https://alphafoldserver.com/])
+2. **RSCP database**: This more ideal. Get high resolution structures (eg Spike trimer in standing and lying state)
+3. **PyMOL**: Structural inspection and preparation. ([https://www.pymol.org/])
+4. **FoldX**: Protein repair, mutation analysis, and binding energy calculation. ([https://foldxsuite.crg.eu/])
 
 ---
 
@@ -21,11 +22,13 @@ This repository provides a streamlined workflow for predicting and analyzing the
 #### Key Considerations:
 - Inclusion criterion:
   - **pTM Score > 0.5**: Indicates the overall predicted fold for the complex might be similar to the true structure.
-    
-  - N/B: (Ignore ipTM values as corrections are made in subsequent steps. Do not draw conclusions about pTM scores from AlphaFold when comparing wild-type structures vs point mutant variants if you manually do edit your protein sequences).
+  -  **ipTM Score > 0.8**: ipTM measures the accuracy of the predicted relative positions of the subunits within the complex. Values higher than 0.8 represent confident high-quality predictions, while values below 0.6 suggest likely a failed prediction
 
 #### Notes:
 - Ensure input sequence files are consistent across all analyses. The order of input files in AlphaFold matters (discovered this at later analysis points when i used the the input files interchangeably).
+
+### Step 1: RSCP database**
+Download high resoultion .pdb files of the protein structures.
 
 ### Step 2: PyMOL
 **Structural Inspection and Preparation**
