@@ -7,7 +7,7 @@ This repository provides a streamlined workflow for predicting and analyzing the
 
 ### Key Tools
 1. **AlphaFold 3**: Clever AI tool for prediction of protein structures (in this case Spike-DPP4 structure as an example). The Alphafold server is supported by the Alphafold3 code as per 29th Nov 2024 ([https://alphafoldserver.com/])
-2. **RSCP database**: This more ideal. Get high resolution structures (eg Spike trimer in standing and lying state)
+2. **RSCB database**: This more ideal. Get high resolution structures (eg Spike trimer in standing and lying state)
 3. **PyMOL**: Structural inspection and preparation. ([https://www.pymol.org/])
 4. **FoldX**: Protein repair, mutation analysis, and binding energy calculation. ([https://foldxsuite.crg.eu/])
 
