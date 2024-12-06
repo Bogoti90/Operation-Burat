@@ -16,7 +16,7 @@ This repository provides a streamlined workflow for predicting and analyzing the
 ## Pipeline Steps
 
 ### Step 1: AlphaFold (v3) (By DeepMind Google) 
-**Prediction of Spike-DPP4 Interaction**
+**Prediction of Protein Interactions**
 - **Resource**: [AlphaFold Training Guide](https://www.ebi.ac.uk/training/online/courses/alphafold/an-introductory-guide-to-its-strengths-and-limitations/strengths-and-limitations-of-alphafold/)
 
 #### Key Considerations:
